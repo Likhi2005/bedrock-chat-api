@@ -1,0 +1,86 @@
+# ======================
+# Python
+# ======================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# ======================
+# Environment Variables
+# ======================
+
+.env
+.env.*
+!.env.example
+
+
+# ======================
+# IDE / Editor
+# ======================
+
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+
+# ======================
+# Logs
+# ======================
+
+*.log
+logs/
+
+
+# ======================
+# Build / Distribution
+# ======================
+
+build/
+dist/
+*.egg-info/
+
+
+# ======================
+# Jupyter
+# ======================
+
+.ipynb_checkpoints/
+
+
+# ======================
+# AWS
+# ======================
+
+.aws/
+
+
+# ======================
+# Local files
+# ======================
+
+uploads/
+tmp/
+temp/
+
+
+# ======================
+# Coverage
+# ======================
+
+.coverage
+htmlcov/
